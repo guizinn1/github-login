@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto:wght@300&display=swap');
+
+*{
+
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    width: 90vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 950px;
+    flex-direction: column;
+
+}
+.main{
+    
+    width: 90%;
+    height: 90%;
+    margin-top: 50px;
+    margin-left: 150px;
+    flex-direction: column;
+}
+
+.right{
+    width: 408px;
+    height: 343px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+   
+    width: 308px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 670px;
+    margin-bottom: 100px;
+    background: rgb(245, 245, 245);
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px #5c5c5c56;
+    flex-direction: column;
+
+}
+
+label{
+
+    font-size: 13px;
+    margin-top: 50px;
+    color: rgb(116, 116, 116);
+    flex-direction: column;
+}
+
+.textfield{
+    width: 274px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.textfield > input{
+    width: 274px;
+    height: 32px;
+    display: flex;
+    border: grey;
+    margin-top: 10px;
+    border-radius: 7px;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+
+
+}
+
+a{
+
+    margin-left: 110px;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: rgb(51, 51, 51);  
+    margin-top: 30px;
+    margin-left: 885px;
+    align-items: center;
+    
+}
+
+h2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    padding: 20px 0px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 5px #5c5c5c56;
+    
+}
+
+input:focus{
+    border-color: #77ffc0;
+}
+
+
+.btn-login{
+    width: 90%;
+    padding: 9px 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Noto Sans JP';
+    border-radius: 7px;
+    outline: none;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #146920;
+    cursor: pointer;
+    box-shadow: 0px 10px 
+    40px -12px #00008052;
+
+
+}
+
+.btn-login:hover{
+    transition: background 1s;
+    background: #25a067;
+}
+
+
+.footer{
+
+    margin-top: 100px;
+    width: 469px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+}
